@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Expense Tracker Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="page-shell">
+
+        <!-- HERO SECTION -->
+
+        <header class="hero">
+
+            <p class="eyebrow">
+                Financial clarity made simple
+            </p>
+
+            <h1>
+                Expense Tracker 💸
+            </h1>
+
+            <p class="hero-text">
+                Track your spending, organize expenses, and manage your finances professionally.
+            </p>
+
+        </header>
+
+
+        <!-- MAIN DASHBOARD -->
+
+        <main class="container">
+
+            <!-- DASHBOARD CARD -->
+
+            <section class="dashboard-card">
+
+                <div class="dashboard-header">
+
+                    <div>
+
+                        <p class="label">
+                            Total Expenses
+                        </p>
+
+                        <h2>
+                            ₹<span id="totalAmount">0</span>
+                        </h2>
+
+                    </div>
+
+
+                    <!-- LOGOUT BUTTON -->
+
+                    <button
+                        class="logout-btn"
+                        onclick="logoutUser()"
+                    >
+                        Logout
+                    </button>
+
+                </div>
+
+
+                <!-- ADD EXPENSE FORM -->
+
+                <form
+                    class="form"
+                    onsubmit="event.preventDefault(); addExpense();"
+                >
+
+                    <label class="input-group">
+
+                        <span>
+                            Expense Title
+                        </span>
+
+                        <input
+                            type="text"
+                            id="title"
+                            placeholder="Enter expense title"
+                            required
+                        >
+
+                    </label>
+
+
+                    <label class="input-group">
+
+                        <span>
+                            Amount
+                        </span>
+
+                        <input
+                            type="number"
+                            id="amount"
+                            placeholder="₹0.00"
+                            required
+                        >
+
+                    </label>
+
+
+                    <button type="submit">
+                        Add Expense
+                    </button>
+
+                </form>
+
+            </section>
+
+
+            <!-- EXPENSE LIST -->
+
+            <section class="expense-list-card">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <h3>
+                            Recent Expenses
+                        </h3>
+
+                        <p>
+                            Manage and review your spending history.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="expense-list"
+                    class="expense-list"
+                ></div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
