@@ -55,38 +55,26 @@ A modern full-stack Expense Tracker web application built using Node.js, Express
 
 ## 🔐 Login Page
 
-Add Screenshot Here:
+<img width="871" height="784" alt="Screenshot 2026-05-07 232741" src="https://github.com/user-attachments/assets/b0e4082d-c49a-4f3d-a613-34a18e6e7d04" />
 
-```md
-<img width="871" height="784" alt="image" src="https://github.com/user-attachments/assets/1a89ee49-e5de-4dad-904b-37cffc49016f" />
-
-
-```
 
 ---
 
 ## 📝 Register Page
 
-Add Screenshot Here:
+<img width="1008" height="771" alt="Screenshot 2026-05-07 232811" src="https://github.com/user-attachments/assets/0e0f71e7-b390-48dd-abbf-01bfd4464557" />
 
-```md
-<img width="1008" height="771" alt="image" src="https://github.com/user-attachments/assets/57d3dfa2-db90-4183-9e86-106f03307f55" />
-
-```
 
 ---
 
 
 ## 💰 Expense Management
 
-Add Screenshot Here:
+<img width="2524" height="1298" alt="Screenshot 2026-05-07 232906" src="https://github.com/user-attachments/assets/207547b4-2dc0-4c15-a659-4e5749747bda" />
 
-```md
-<img width="2524" height="1298" alt="image" src="https://github.com/user-attachments/assets/4ac90b7f-e71a-4ef7-904d-4f5acaf37911" />
 
 ```
 
----
 
 # 🧠 What I Learned
 
@@ -142,27 +130,7 @@ Expense-Tracker-FullStack-Project/
 
 ---
 
-# ⚡ Installation & Setup
 
-## Clone Repository
-
-```bash
-git clone https://github.com/munavvar0116/Expense-Tracker-FullStack-Project.git
-```
-
-## Install Dependencies
-
-```bash
-npm install
-```
-
-## Start Server
-
-```bash
-node server.js
-```
-
----
 
 # 🌐 Future Improvements
 
