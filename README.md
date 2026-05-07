@@ -73,7 +73,6 @@ A modern full-stack Expense Tracker web application built using Node.js, Express
 <img width="2524" height="1298" alt="Screenshot 2026-05-07 232906" src="https://github.com/user-attachments/assets/207547b4-2dc0-4c15-a659-4e5749747bda" />
 
 
-```
 
 
 # 🧠 What I Learned
@@ -110,7 +109,7 @@ Through this project, I learned:
 
 # 📂 Project Structure
 
-```bash
+
 Expense-Tracker-FullStack-Project/
 │
 ├── public/
@@ -126,9 +125,6 @@ Expense-Tracker-FullStack-Project/
 ├── db.js
 ├── package.json
 └── README.md
-```
-
----
 
 
 
